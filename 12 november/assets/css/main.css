@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 0 0px;
+  }
+#Edu-programs .container{
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+#Graduated-students .container{
+  width: 1024px;
+  margin: 600px auto;
+  position: relative;
+}
+#Why-Academy .container{
+  width: 1024px;
+  margin: 300px auto;
+  position: relative;
+}
+#Academic .container{
+  width: 1024px;
+  margin: 300px auto;
+  position: relative;
+}
+#Muraciet .container{
+  width: 1024px;
+  margin: 300px auto;
+  position: relative;
+}
+#general-section{
+  width: 1024px;
+  margin: 100px auto;
+  position: relative;
+}
+.col-1 {
+  width: calc(100% / 12 * 1);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-9 {
+  width: calc(100% / 12 * 9);
+}
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-12 {
+  width: calc(100% / 12 * 12);
+}
+.imgfix{
+  max-width: 100% !important;
+}

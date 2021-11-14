@@ -1,0 +1,344 @@
+li{
+    list-style-type: none;
+}
+.left-header p{
+    display: inline;
+    margin-left: 40px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.left-header a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+div.left-header {
+    top: 10px;
+    position: relative;
+}
+div .right-header{
+    position: absolute;
+    top: 5px;
+    right: 250px;
+}
+.fb i{
+    color: black;
+}
+.insta i{
+    font-size: 15px;
+}
+.right-header li{
+    margin-left: 18px;
+    display: inline;
+}
+#Edu-programs{
+    padding: 150px 0;
+}
+#Edu-programs .title h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: -20px;
+}
+#Edu-programs .title span{
+    font-size: 40px;
+    font-weight: normal;
+}
+#Edu-programs .title p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#Edu-programs .description a{
+    text-decoration: none;
+   color: black;
+}
+#Edu-programs .Education-types {
+    border: 1px solid grey;
+  padding: 20px;
+  transition: all 0.5s;
+  transition: transform .0.1s;
+}
+#Edu-programs .Education-types:hover{
+    transform: scale(1.2); 
+   background-color: rgb(89, 0, 255);
+}
+
+#Edu-programs .col-3 i{
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+}
+#Edu-programs .col-3 b{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+#Edu-programs .col-3{
+    max-height: 190px;
+}
+#Edu-programs .col-3 i{
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+}
+#Edu-programs .col-3 b{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 50px;
+}
+#Graduated-students{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/02.jpeg")
+}
+#Graduated-students h1{
+    border: 1px solid;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+}
+#Graduated-students .Mezun{
+    text-align: center;
+    border: 1px solid;
+    display: table;
+    margin-left: 180px;
+    margin-top: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+
+#Graduated-students .container h1{
+    margin-top: 150px;
+}
+#Why-Academy .title {
+    width: 50%;
+    position: relative;
+}
+#Why-Academy .container h1{
+    font-size: 40px;
+    margin-top: -220px;
+    margin-bottom: 150px;
+}
+#Why-Academy .container h1 span{
+    font-weight: lighter;
+    display: block;
+}
+#Why-Academy h1::after{
+    display: block;
+    content: " ";
+    width: 100px;
+    height: 3px;
+    background-image: linear-gradient(to left,rgb(0, 255, 157),blue,red,yellow);
+    margin-top: 20px;
+}
+
+#Why-Academy .container .description{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: -100px;
+}
+.why-academy-items{
+    overflow: hidden;
+    height: 250px;
+    margin-top: 40px;
+    padding: 20px;
+    transition:0.4s;
+}
+#Why-Academy .why-academy-items:hover{
+    background-color: rgb(221, 232, 228);
+}
+.why-academy-items .content{
+    text-overflow: "----";
+    margin-top: 10%;
+    color: black;
+}
+.why-academy-items .content .bold{
+    padding: 25px;
+    font-size: 20px;
+}
+.why-academy-items .content p{ 
+    
+    font-size: 18px;
+    margin-top: 25px;
+}
+#Academic .title {
+    width: 500px;
+    margin-left: 230px;
+    margin-top: 340px;
+    text-align: center;
+}
+#Academic .title span {
+    font-size:60px;
+}   
+#Academic .title p{
+    margin-top: 40px;
+}
+#Academic .title h1{
+    margin-top: -15px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+#Academic{
+    height: 1800px;
+}
+#Academic .title::after{
+    display: block;
+    content: " ";
+    width: 100px;
+    height: 3px;
+    background-image: linear-gradient(to left,rgb(0, 255, 157),blue,red,yellow);
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.companies img{
+    margin-top: 140px;
+    margin-left:40px;
+}
+.companies .img-test{
+    margin-top: 120px;
+}
+#Academic .title{
+    margin-top: 300px;
+}
+#Academic .title a{
+    color: black;
+    text-decoration: none;
+}
+#Muraciet .container p{
+    margin-top: 100px;
+    font-size: 40px;
+}
+#Muraciet .container h1{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+#Muraciet .container span{
+    /* margin-left: 29px; */
+    width: 10px;
+}
+#Muraciet{
+    background-image: url("/02.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+#Muraciet .info{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+#Muraciet .info input{
+    padding: 20px;
+}
+#Muraciet .select{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#Muraciet .select input{
+    padding: 20px;
+}
+#Muraciet .select2{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#tedris-programi{
+    height: 50px;
+    width: 363px;
+}
+#Muraciet .button{
+    border: none;
+    width: 363px;
+    height: 50px;
+    background-color: rgb(85, 255, 0);
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#phone{
+    width: 70px;
+    height: 50px;
+}
+#general-section .Akademiya li{
+    text-decoration: none;
+    margin-top: 10px;
+}
+#general-section .Akademiya li a{
+    color: grey;
+    text-decoration: none;
+}
+#general-section .Akademiya ul{
+    list-style-type: none;
+}
+#general-section .Akademiya a:hover{
+    color: rgb(38, 36, 34);
+}
+#general-section .location p{
+    display: inline;
+}
+#general-section .accesbility{
+    text-align: center;
+    margin-top: 100px;
+}
+#general-section .accesbility a{
+    text-decoration: none;
+    color: black;
+}
+.last{
+    height: 120px;
+}
+.last p{
+    margin-top: 400px;
+    margin-left: 190px;
+}
+.last img{
+    width: 200px;
+    margin-top: -110px;
+    margin-left: 45%;
+}
+.last .right-footer{
+    margin-left: 70%;
+    margin-top: -100px;
+}
+.last .right-footer li{
+    margin-left: 30px;
+    color: black;
+    display: inline;
+}
+.last .right-footer i{
+    color: black;
+}
+.header-bar li{
+    margin-top: 0px;
+    margin-left: 120px;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+.header-bar li a{
+    color: black;
+    text-decoration: none;
+
+}
+.header-bar i{
+    margin-top: 16px;
+    /* padding: 14px 16px;
+    font-size: 17px; */
+    float: right;
+    margin-right: 70px;
+}
+.header-bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+    background-color: rgb(165, 165, 165);
+    overflow: hidden;
+}
+.Menu-photo .container img{
+    margin-left: 60px;
+    margin-top: 0px;
+}
